@@ -12,7 +12,6 @@ def carregar_json():
     try:
         with open(caminho_json, "r", encoding="utf-8") as arquivo:
             dados = json.load(arquivo)
-            # Aqui você pode processar os dados se necessário
     except FileNotFoundError:
         print("Arquivo pecas.json não encontrado!")
 
