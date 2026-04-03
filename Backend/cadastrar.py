@@ -1,4 +1,5 @@
 from datetime import datetime
+
 class Peca:
     def __init__(self, id, nome, custo, preco, estoque, carros, tamanho, localizacao, codigo, fornecedor):
         self.id = id
