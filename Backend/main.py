@@ -1,8 +1,8 @@
 from estoque import cadastrar_peca, listar_pecas, registrar_producao
-from vendas import vender_peca
+from vendas import vender_peca, faturamento
 from busca import buscar_por_carro
 from montagem import montar_carro
-from dados import faturamento
+# from dados import faturamento
 
 def menu():
     while True:
